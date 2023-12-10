@@ -30,6 +30,24 @@
  //resultado de sumar estos dos números.
 
 
- let num1 =  parseInt(prompt("ingrese el primer numero"));
- let num2 = parseInt(prompt("ingrese el segundo numero"));
- console.log(`${num1 + num2}`);
+ //let num1 =  parseInt(prompt("ingrese el primer numero"));
+ //let num2 = parseInt(prompt("ingrese el segundo numero"));
+ //console.log(`${num1 + num2}`);
+
+
+
+ //6.-Escribe un programa que pida dos números y 
+ //escriba en la pantalla cual es el mayor.
+
+let num1 = parseFloat(prompt("ingrese un numero"));
+let num2 = parseFloat(prompt("ingrese otro numero"));
+
+if (num1 > num2) {
+    alert(`${num1} es mayor que ${num2}`);
+    
+} else if (num2 > num1) {
+    alert(`${num2} es mayor que ${num1}`);
+} else {
+    alert(`${num1} es igual que ${num2}`);
+    
+}
