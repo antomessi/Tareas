@@ -21,5 +21,15 @@
 // texto que diga «Hola nombreUsuario»
 
 
-let nombre = prompt("cual es tu nombre");
-alert(`Hola ${nombre}`);
+//let nombre = prompt("cual es tu nombre");
+//alert(`Hola ${nombre}`);
+
+
+//5.- Escribe un programa de tres líneas que
+ //pida un número, pida otro número y escriba el 
+ //resultado de sumar estos dos números.
+
+
+ let num1 =  parseInt(prompt("ingrese el primer numero"));
+ let num2 = parseInt(prompt("ingrese el segundo numero"));
+ console.log(`${num1 + num2}`);
