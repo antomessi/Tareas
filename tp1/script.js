@@ -39,15 +39,22 @@
  //6.-Escribe un programa que pida dos números y 
  //escriba en la pantalla cual es el mayor.
 
-let num1 = parseFloat(prompt("ingrese un numero"));
-let num2 = parseFloat(prompt("ingrese otro numero"));
 
-if (num1 > num2) {
-    alert(`${num1} es mayor que ${num2}`);
-    
-} else if (num2 > num1) {
-    alert(`${num2} es mayor que ${num1}`);
+
+//7.- Escribe un programa que pida 3 números y escriba
+// en la pantalla el mayor de los tres.
+
+let num1 = parseFloat(prompt("ingrese un num"));
+let num2 = parseFloat(prompt("ingrese otro num"));
+let num3 = parseFloat(prompt("ingrese un ultimo num"));
+
+if (num1 > num2 && num1 > num3) {
+    alert(`${num1} es mayor que ${num2} y ${num3}`);
+} else if (num2 > num1 && num2 > num3) {
+    alert(`${num2} es mayor que ${num1} y ${num3}`);
+} else if (num3 > num1 && num3 > num2) {
+    alert(`${num3} es mayor que ${num1} y ${num2}`);
 } else {
-    alert(`${num1} es igual que ${num2}`);
+    alert("todos los num son iguales");
     
 }
